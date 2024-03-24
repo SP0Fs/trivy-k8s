@@ -8,7 +8,7 @@ spec:
   sources:
     - chart: trivy
       repoURL: https://aquasecurity.github.io/helm-charts/
-      targetRevision: 0.10.1
+      targetRevision: 0.7.0
       helm:
         releaseName: trivy
         valueFiles:
